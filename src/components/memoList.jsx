@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
 
-export default function memoList() {
+export default function MemoList() {
   return (
     <View>
       <View style={styles.memoListItem}>

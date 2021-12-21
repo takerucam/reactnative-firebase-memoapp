@@ -2,7 +2,7 @@ import { string } from 'prop-types';
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function circleButton(props) {
+export default function CircleButton(props) {
   const { children } = props;
 
   return (
@@ -12,7 +12,7 @@ export default function circleButton(props) {
   );
 }
 
-circleButton.propTypes = {
+CircleButton.propTypes = {
   children: string.isRequired,
 };
 
